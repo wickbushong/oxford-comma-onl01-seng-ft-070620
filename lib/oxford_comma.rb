@@ -5,7 +5,11 @@ def oxford_comma(array)
       when 0
         ans << element
       when array.length-1
-        ans << " and #{element}"
+        if array.length == 2
+          ans << " and #{element}"
+        else
+          ans << ", and #{element}"
+        end
       else
         ans << ", #{element}"
     end
