@@ -5,7 +5,7 @@ def oxford_comma(array)
       when 0
         ans << element
       when array.length-1
-        ans << "and #{element}"
+        ans << " and #{element}"
       else
         ans << ", #{element}"
     end
