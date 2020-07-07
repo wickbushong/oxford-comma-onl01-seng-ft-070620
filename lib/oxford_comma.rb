@@ -10,4 +10,5 @@ def oxford_comma(array)
         ans << ", #{element}"
     end
   }
+  ans
 end
